@@ -17,7 +17,7 @@ div#follownav{
     text-align: center;
     font-size: 20px;
     vertical-align: top;
-    opacity: 80%;
+    opacity: 75%;
 }
 
 img{
@@ -46,14 +46,26 @@ li{
     }
 }
 
+@keyframes disappear {
+    from{
+        opacity: 100%;
+    }
+    to{
+        opacity: 0%
+    }
+}
+
+
 @keyframes buttonHlt {
     from {
         transform: scale(1);
         filter: grayscale(100%);
+        border: 2px solid rgb(156, 156, 156);
     }
     to {
         filter: grayscale(0%);
         transform:scale(1.1);
+        border: 2px solid rgb(255, 255, 255);
     }
 
 }
@@ -62,10 +74,12 @@ li{
     from {
         transform: scale(1.1);
         filter: grayscale(0%);
+        border: 2px solid rgb(255, 255, 255);
     }
     to {
         filter: grayscale(100%);
         transform:scale(1);
+        border: 2px solid rgb(156, 156, 156);
     }
 }
 
@@ -103,7 +117,7 @@ ul{
 
 ul#options li{
     padding: 0.5rem;
-    padding-top: 1rem;
+    padding-top: 3rem;
 }
 
 ul li{
@@ -139,6 +153,7 @@ ul#options li button#CThinking:hover{
     animation-duration: 0.6s;
     filter: grayscale(0%);
     transform: scale(1.1);
+    border: 2px solid rgb(255, 255, 255);
 }
 
 ul#options li button#CTFuture{
@@ -156,6 +171,7 @@ ul#options li button#CTFuture:hover{
     animation-duration: 0.6s;
     filter: grayscale(0%);
     transform: scale(1.1);
+    border: 2px solid rgb(255, 255, 255);
 }
 
 ul#options li button#Bibliography{
@@ -173,6 +189,7 @@ ul#options li button#Bibliography:hover{
     animation-duration: 0.6s;
     filter: grayscale(0%);
     transform: scale(1.1);
+    border: 2px solid rgb(255, 255, 255);
 }
 
 ul button.oneButton:hover{
@@ -180,6 +197,7 @@ ul button.oneButton:hover{
     animation-name: buttonHltcommon;
     animation-duration: 0.6s;
     background-color: rgb(214, 214, 214);
+    border: 2px solid rgb(255, 255, 255);
 }
 
 ul button#BioPic{
@@ -192,11 +210,16 @@ ul button#BioPic{
     transform: scale(1);
 }
 
+ul button.blocks{
+    border: 2px solid rgb(156, 156, 156);
+}
+
 ul button#BioPic:hover{
     animation-name: buttonHlt;
     animation-duration: 0.5s;
     filter: grayscale(0%);
     transform: scale(1.1);
+    border: 2px solid rgb(255, 255, 255);
 }
 
 ul#options li button#Code{
@@ -214,12 +237,14 @@ ul#options li button#Code:hover{
     animation-duration: 0.6s;
     filter: grayscale(0%);
     transform: scale(1.1);
+    border: 2px solid rgb(255, 255, 255);
 }
 
 ul button p{
     word-wrap: break-word;
     font-size: 1rem;
 }
+
 
 ul#options li button#BioPic img{
     width: 200px;
@@ -239,6 +264,5 @@ ul#options li button#BioPic img{
 }
 
 footer{
-    background-color: rgb(97, 97, 97);
-    background-attachment: fixed;
+    padding: 1rem;
 }

@@ -1,0 +1,22 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+header button{
+    width: 2vw;
+    height: 25vh;
+    background-color: rgb(0, 0, 0);
+    border: none;
+    color: rgb(255, 255, 255);
+}
+
+header{
+    background-image: url(AbstractComb.jpg);
+    background-size: cover;
+    height: 25vh;
+}
+
+nav{
+    background-color: rgb(119, 119, 119);
+}
