@@ -13,7 +13,7 @@ header button#homeButton{
     position: absolute;
     top: 0;
     left: 0;
-    transition: 0.3s;
+    transition: 0.25s;
     width: 2.5vw;
     height: 25vh;
     background-image: url("RiverBack.jpg");
@@ -24,7 +24,7 @@ header button#homeButton{
 }
 
 header button#homeButton:hover{
-    transition: 0.3s;
+    transition: 0.2s;
     width: 5vw;
     filter: saturate(100%);
 }
