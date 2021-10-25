@@ -141,7 +141,7 @@ ul button{
 ul#options li button.blocks{
     animation-name: buttonHltrev;
     animation-duration: 0.5s;
-    filter: grayscale(80%);
+    filter: grayscale(85%);
     background-size: cover;
     transform: scale(1);
     border: 2px solid rgb(156, 156, 156);
