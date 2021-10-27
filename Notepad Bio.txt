@@ -1,0 +1,14 @@
+“We can only see a short distance ahead, but we can see plenty there that needs to be done.”
+	-Alan Turing
+
+Every once in a while comes along a man whose out-of-the-world thinking and spirit covertly revolutionizes the world. Alan Turing was one of such geniuses.
+
+Born in Maida Vale, London on 23rd June, 1912, Alan Mathison Turing was the son of a civil servant.  He was a very bright student and showed interest in Mathematics and Science from a young age. His unique genius was also noted by his teachers.  After graduating from a well known school, Turing enrolled at King’s College where he proved the central limit theorem. For that achievement he was granted fellowship at the university.
+
+In 1936 Turing presented a paper which many consider to be the precursor of modern computers. In this paper, he outlined a mechanism that could “compute everything that is computable.” This machine was later coined the term “Turing Machine.” He later went on to get a PHD from Princeton University on Cryptology and then work with the government’s code-breaking branch.
+
+Perhaps the most well known thing about Turing is the role he played in World War 2. Amidst the heated tension between the Allies and Axis forces, Alan Turing found a way to decode Axis communication and aided the Allies to victory. By doing so, he managed to save millions of lives and shortened the war by several years.
+
+Turing’s achievements, however, did not end there. After the war Turing developed interest in biology and nature. He made connections between nature’s mathematical patterns and the functioning of a computer. He referred to the human brain as a large unorganized machine that is trained, a statement that can widely be observed in almost every Artificial Intelligence based program in present day. He is, therefore, regarded as the founding father of AI.
+
+Turing’s late life was plagued with misfortune. Since homosexuality was considered a crime in the early 1950s, Turing was put through hormonal treatment. On 7th June, 1954, Alan Turing was found dead on his bed. Many blame the treatment for his death, however no evidence found linked the two together, leaving little explanation as to why he died. However it might have happened, Alan Turing left us with an opportunity to dive deeper into the field of Computer Science, and will thus always be an important name to remember.
