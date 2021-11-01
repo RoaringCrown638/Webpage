@@ -1,0 +1,42 @@
+Computers are literal. If you don't define something properly they will not function properly.
+
+Decomposition
+-Decompose to smaller problems
+
+Pattern Recognition
+-Recognize Patterns
+
+Abstraction
+-Focus on important information
+
+Algorithm
+-Make solution for problems
+
+Example
+-Computing
+--Regression
+---
+
+-Daily life
+--Cooking Food
+---Decomposition - Decompose into smaller aspects such as cutting vegetables and boiling things.
+---Pattern Recognition - Recognize similarities, such as cutting the vegetables in a simliar way.
+---Abstraction - Focus on the cooking part and leave the garnishing out.
+---Algorithm - Cut Vegetables
+
+
+**Product**
+Computational Thinking is a way to decompose and solve difficult problems. It allow humans to look at a problem on an element by element basis which helps us see its more minute details and aspects. The whole process can be divided into substeps namely:
+<li>
+	1). Decomposition - It is better to look at a problem the way a computer would. For example, when reading something from memory, a computer can only read 1 bit. When going through a program, a computer only goes line by line, character by character. To write something that would make the computer do what we want, we need to think like a computer, so we decompose the problem in smaller problems and look at them individually.
+	
+	2). Pattern Recognition - We simply try and find similarities and patters in what we are doing. Some problems may have similar steps to solving them.
+	3). Abstraction - Not every little detail we find is going ot be the important so in this step seperate the needed from the unneeded.
+	4). Algorithm - Finally with all the information we have we can outline a solution, or algorithm for the problem. A solution that the computer can understand and can use to give us what we want.
+</li>
+
+The points ligned above are not only applicable to computing but also to our general life. In fact, we tend to do repeat these steps in almost every task without realizing it. For example, when we cook food we generalize and take several steps for granted such as locating and grabbing a knife. For a human that step will just be a covert part of a more general step of cutting a vegetable. Since computers follow coded instructions very literally, this would cause an error or a bigger mess. Thus we would decompose this into smaller steps. For pattern recognition we can recognize that we have to cut several vegetables and thus would need to follow the same steps over and over again. The importance of any information is related to what we are trying to achieve. If, in this case, we just need 2 potatoes ,for example, we wouldn't care much about the size of the potatoes and just the quantity. And lastely, we would define a working algorithm to achieve all the tasks we have outlined above.
+
+"Why is it relevant in my program of study?"
+Cause I am in a programming module duh (Explain how comp thinking is different from everyday thinking)
+Computational thinking is different from everyday thinking in that it makes us understand what we are doing and how we are doing it. It highlights the small aspects of any problem that we might generally ignore but a computer may need to understand. Since this module is heavily programming based, computational thinking will be a very key skill to have. In my future I want to move towards a more AI based field, therefore, computational thinking will be important for the rest of my career as well.
