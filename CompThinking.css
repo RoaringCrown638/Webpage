@@ -8,9 +8,10 @@ ul{
 }
 
 body{
-    background-image: url("AbstractBack.jpg");
+    /* background-image: url("AbstractBack.jpg");
     background-size: cover;
-    background-attachment: fixed;
+    background-attachment: fixed; */
+    background-color: rgb(240, 240, 240);
 }
 
 header button#homeButton{
@@ -34,13 +35,15 @@ header button#homeButton:hover{
 }
 
 header{
-    background-image: url(AbstractComb.jpg);
-    background-size: cover;
+    /* background-image: url(AbstractComb.jpg);
+    background-size: cover; */
+    background-color: rgb(111, 0, 255);
     height: 25vh;
     color: white;
     display: flex;
     justify-content: center;
     align-items: center;
+    opacity: 90%;
 }
 
 #Info{
@@ -51,12 +54,13 @@ nav{
     background-color: rgb(119, 119, 119);
 }
 
-h1{
+header>h1{
     vertical-align: top;
     display: inline-block;
     text-align: center; 
     color: rgb(255, 255, 255);
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 2.5rem;
 }
 
 header button p{
@@ -65,23 +69,23 @@ header button p{
     font-size: 15px;
 }
 
-div{
+section{
     background-color: rgb(48, 48, 48);
     display: flex;
     flex-direction: column;
     margin: 3%;
 }
 
-div ul{
+section ul{
     display: flex;
     flex-direction: row;
 }
 
-div ul li img{
+section ul li img{
     width: 10vw;
 }
 
-div p{
+section p{
     margin: 3%;
     color: rgb(221, 221, 221);
     font-family:Verdana, Geneva, Tahoma, sans-serif;

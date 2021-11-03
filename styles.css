@@ -9,7 +9,7 @@ body{
     background-attachment: fixed;
 }
 
-div#follownav{
+header{
     /* margin: 2rem; */
     background-image: url("AbstractBack.jpg");
     background-size: cover;
@@ -20,14 +20,6 @@ div#follownav{
     opacity: 75%;
 }
 
-img{
-    width: 10%;
-}
-
-ul#title {
-    display: inline-block;
-}
-
 h1{
     color: rgb(0, 0, 0);
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -36,25 +28,6 @@ h1{
 li{
     list-style: none;
 }
-
-@keyframes buttonHltcommon {
-    from {
-        background-color: rgb(245, 245, 245);
-    }
-    to {
-        background-color: rgb(214, 214, 214)
-    }
-}
-
-@keyframes disappear {
-    from{
-        opacity: 100%;
-    }
-    to{
-        opacity: 0%
-    }
-}
-
 
 @keyframes buttonHlt {
     from {
@@ -83,32 +56,6 @@ li{
     }
 }
 
-
-#navbar-list{
-    position: relative;
-    background: rgb(97, 97, 97);
-    color: white;
-    padding: 1rem;
-}
-
-nav ul li{
-    font:normal;
-}
-
-#navbar-container{
-    position: absolute;
-    top: 0;
-    right: 0;
-    padding: 0.5rem;
-    padding-right: 1rem;
-}
-
-#navbar-container ul li{
-    display: inline-block;
-    margin: 0 auto;
-    padding-right: 1rem
-}
-
 ul{
     display: table;
     margin: 0 auto;
@@ -127,13 +74,14 @@ ul li{
 }
 
 ul button{ 
+    display: flex;
     position: relative;
-    margin: 1vw;
+    margin: 1.5vw;
     padding: 1vw;
     background-color: rgb(245, 245, 245);
     border: 0;
     width: 15vw;
-    height: 65vh;
+    height: 70vh;
     vertical-align: top;
     filter: grayscale(100%)
 }
@@ -175,7 +123,7 @@ ul button#BioPic{
     background-position-x: -220px;
 }
 
-ul#options li button#Code{
+ul#options li button#Notes{
     background-image: url("CT2.jpg");
     background-position-x: -80px;
 }
@@ -197,12 +145,6 @@ ul#options li button#BioPic img{
     opacity: 1;
 }
 
-#biopara{
-    position: relative;
-    padding-top: 10rem;
-    text-align: center;
-}
-
 footer{
-    padding: 1rem;
+    padding-top: 2rem;
 }
